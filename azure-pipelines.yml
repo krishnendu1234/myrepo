@@ -22,5 +22,5 @@ steps:
     goals: 'package'
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: $(Build.ArtifactStagingDirectory)
+    pathToPublish: /home/vsts/work/1/s/target/sampleapp-1.0.0-SNAPSHOT-LOCAL.jar
     artifactName: MyBuildOutputs
